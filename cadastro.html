@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>cappuccino</title>
+  </head>
+  <body>
+    <h2 align="left">
+      <img
+        src="imagens_cadastro/logo.jpg"
+        alt="starbuzz café"
+        title="Starbuzz Café"
+        width="110"
+        align="middle"
+      />
+      Cadastre-se no Café Starbuzz
+    </h2>
+
+    <form action="http://www.exemple.com/review.php" method="GET">
+      <fieldset>
+        <p minlength='20'> Nome Completo:</p>
+      <label>
+        <input type="text" name="Nome Completo" maxlength="60" placeholder="Digite seu nome completo" required="required"/>
+
+      </label><br>
+      <p>Data de nascimento:</p>
+ <label>
+   <input type="date" name="data nascimento" maxlength="6" placeholder="dd/mm/aaaa" required="required" />
+ </label>
+ <p>Email</p>
+ <label>
+   <input type="email" name="Email" maxlength="100" placeholder="Digite o email" required="required"/>
+ </label>
+    <p>
+ <fieldset>
+    <legend>Sexo </legend>
+    <label> <input type="radio" name="sexo" value="masculino"  />Masculino </label>
+    <label> <input type="radio" name="sexo" value="feminino"/>Feminino </label>
+    <label> <input type="radio" name="sexo" value="outros" />Outros </label>
+      </fieldset>
+      <p>Café preferido</p>
+      <select name="device">
+        <option value="Mistura da casa"> Mistura da casa </option>
+        <option value="Café arábico com leite"> Café arábico com leite </option>
+        <option value="Cappucino"> Cappucino </option>
+        <option value="Chá"> Chá </option>
+      </select>
+      <p>Você toma café..
+      <label> <input type="radio" name="Manhã" value="Manhã"/>Manhã</label>
+      <label> <input type="radio" name="Tarde" value="Tarde"/>Tarde</label>
+      <label> <input type="radio" name="Noite" value="Noite"/>Noite</label>
+    </p>
+<textarea rows="6" cols="56" placeholder="Deixe seu comentário"></textarea>
+    <p>
+      <label>
+        <input type="checkbox" name="Receber novidades por email"/>Receber novidades por email
+      </label>
+    </p>
+    <input type="submit" name="Enviar"/>
+    <input type="reset" name="Limpar"/>
+    <a href="index.html"><center color="dark_blue">Voltar</center></a>
+    </form>
+  </body>
+</html>
