@@ -1,0 +1,15 @@
+th{
+  color:white;
+  background-color:darkgreen;
+}
+
+tr:nth-child(even) {
+  background:lightgray;
+}
+
+h2{
+  color:darkorange;
+}
+tr:hover{
+  background-color: aquamarine; 
+}

@@ -1,0 +1,18 @@
+h1 {
+color: darkgreen;
+font-size: 42px;
+}
+
+h2{
+  color: darkred;
+  font-size: 32px;
+}
+
+#marca {
+  color: darkmagenta;
+  font-size: 28px;
+}
+
+body {
+  background-color: aliceblue; 
+}
