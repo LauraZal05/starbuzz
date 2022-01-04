@@ -11,5 +11,16 @@ h2{
   color:darkorange;
 }
 tr:hover{
-  background-color: aquamarine; 
+  background-color: aquamarine;
+}
+img{
+  width: 110px;
+  height: 110px;
+  vertical-align: middle;
+}
+
+img:hover{
+  width:140px;
+  height: 140px;
+  vertical-align: middle;
 }
